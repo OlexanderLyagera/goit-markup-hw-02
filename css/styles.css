@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none; /* Прибирає маркери/цифри */
+}
+body {
+  font-family: "roboto", sans-serif;
+  color: #0000;
+  background-color: #fff;
+}
