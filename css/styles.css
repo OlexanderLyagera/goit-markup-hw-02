@@ -7,6 +7,22 @@ ol {
 }
 body {
   font-family: "roboto", sans-serif;
-  color: #0000;
-  background-color: #fff;
+  font-weight: 400;
+  color: #434455;
+  background-color: #e5e5e5;
+}
+.webstudio {
+  font-family: "raleway", sans-serif;
+  font-size: 18;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #2e2f42;
+}
+.webstudio:hover,
+.webstudio:focus {
+  color: #404bbf;
+}
+.webstudio span {
+  color: #4d5ae5;
 }
