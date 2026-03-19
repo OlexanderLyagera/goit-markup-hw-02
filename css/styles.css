@@ -7,22 +7,119 @@ ol {
 }
 body {
   font-family: "roboto", sans-serif;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
+  /*slate*/
+
   background-color: #e5e5e5;
 }
-.webstudio {
+.logo {
   font-family: "raleway", sans-serif;
-  font-size: 18;
+
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 3%;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /*color: var(--iris);*/
   color: #2e2f42;
+  /*navyblue*/
 }
-.webstudio:hover,
-.webstudio:focus {
+.logo-text {
+  color: #4d5ae5;
+  /*iris*/
+}
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+  /*ocean*/
+}
+
+.nav {
+  font-weight: 500;
+
+  color: #2e2f42; /*navyblue*/
+}
+
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
-.webstudio span {
-  color: #4d5ae5;
+.solutions,
+.footer {
+  background-color: #2e2f42;
+}
+.solutions-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+
+  text-align: center;
+
+  color: #ffffff;
+  /*white*/
+}
+.solution-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  /*white*/
+  background-color: #4d5ae5;
+  /*iris*/
+}
+.solution-button:hover,
+.solution-button:focus {
+  background-color: #404bbf;
+  /*ocean*/
+}
+.features,
+.team,
+.portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  /*color: var(--navy-blue);*/
+}
+.features-title,
+.team-title,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  /*color: var(--navy-blue);*/
+}
+
+.team-section {
+  background-color: #f4f4fd; /*cloud*/
+}
+.team-img {
+  width: 264px;
+  height: 260px;
+}
+.team-list {
+  width: 264px;
+  height: 380px;
+}
+
+.portfolio-list {
+  width: 360px;
+  height: 420px;
+}
+.portfolio-img {
+  width: 360px;
+  height: 300px;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
