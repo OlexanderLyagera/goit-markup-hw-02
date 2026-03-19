@@ -28,6 +28,7 @@ body {
   color: #2e2f42;
   /*navyblue*/
 }
+.footer-logo,
 .logo-text {
   color: #4d5ae5;
   /*iris*/
@@ -36,7 +37,7 @@ body {
 .logo:focus,
 .nav-link a:hover,
 .nav-link a:focus,
-.contact:hover,
+.nav-contact:hover,
 .contact:focus {
   color: #404bbf;
   /*ocean*/
@@ -59,7 +60,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
+  letter-spacing: 0.02em;
   text-align: center;
 
   color: #ffffff;
@@ -128,4 +129,8 @@ body {
 */
 .footer-text {
   color: #f4f4fd;
+  text-align: center;
+}
+.team-title {
+  text-align: center;
 }
