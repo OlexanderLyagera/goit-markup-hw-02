@@ -9,19 +9,19 @@ body {
   font-family: "roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   /*slate*/
 
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 .logo {
   font-family: "raleway", sans-serif;
 
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /*color: var(--iris);*/
@@ -33,7 +33,11 @@ body {
   /*iris*/
 }
 .logo:hover,
-.logo:focus {
+.logo:focus,
+.nav-link a:hover,
+.nav-link a:focus,
+.contact:hover,
+.contact:focus {
   color: #404bbf;
   /*ocean*/
 }
@@ -43,11 +47,10 @@ body {
 
   color: #2e2f42; /*navyblue*/
 }
-
-.contact:hover,
-.contact:focus {
-  color: #404bbf;
+.contact {
+  font-style: normal;
 }
+
 .solutions,
 .footer {
   background-color: #2e2f42;
@@ -55,7 +58,7 @@ body {
 .solutions-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
 
   text-align: center;
 
@@ -64,8 +67,9 @@ body {
 }
 .solution-button {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
   /*white*/
@@ -82,7 +86,7 @@ body {
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -93,7 +97,7 @@ body {
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   /*color: var(--navy-blue);*/
@@ -102,24 +106,26 @@ body {
 .team-section {
   background-color: #f4f4fd; /*cloud*/
 }
-.team-img {
+/*.team-img {
   width: 264px;
   height: 260px;
-}
+}*/
 .team-list {
-  width: 264px;
-  height: 380px;
+  background-color: #fff;
+  /*width: 264px;
+  height: 380px;*/
 }
-
+/*
 .portfolio-list {
   width: 360px;
   height: 420px;
-}
+}*/
+/*
 .portfolio-img {
   width: 360px;
   height: 300px;
 }
-
+*/
 .footer-text {
   color: #f4f4fd;
 }
