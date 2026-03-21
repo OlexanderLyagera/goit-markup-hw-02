@@ -34,6 +34,12 @@ body {
 }
 
 .logo-text {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
   /*iris*/
 }
@@ -144,6 +150,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+   color: #4d5ae5;
 }
 .team-title,
 .team-text {
