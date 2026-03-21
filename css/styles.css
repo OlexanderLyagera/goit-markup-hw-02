@@ -1,6 +1,10 @@
 a {
   text-decoration: none;
 }
+.contact-link {
+  color: #434455;
+  /*slate*/
+}
 ul,
 ol {
   list-style-type: none; /* Прибирає маркери/цифри */
@@ -37,8 +41,8 @@ body {
 .logo:focus,
 .nav-link a:hover,
 .nav-link a:focus,
-.nav-contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
   /*ocean*/
 }
@@ -128,9 +132,17 @@ body {
 }
 */
 .footer-text {
+  font-family: "raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
   text-align: center;
 }
-.team-title {
+.team-title,
+.team-text {
   text-align: center;
 }
