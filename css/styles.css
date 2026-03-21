@@ -131,11 +131,19 @@ body {
   height: 300px;
 }
 */
-.footer-logo,
+
 .footer-text {
-  font-family: "raleway", sans-serif;
+  
   color: #f4f4fd;
   /*text-align: center;*/
+}
+.footer-logo{
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .team-title,
 .team-text {
