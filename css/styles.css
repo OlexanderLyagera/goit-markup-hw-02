@@ -32,7 +32,7 @@ body {
   color: #2e2f42;
   /*navyblue*/
 }
-.footer-logo,
+
 .logo-text {
   color: #4d5ae5;
   /*iris*/
@@ -131,7 +131,9 @@ body {
   height: 300px;
 }
 */
+.footer-logo,
 .footer-text {
+  font-family: "raleway", sans-serif;
   color: #f4f4fd;
   /*text-align: center;*/
 }
@@ -143,6 +145,6 @@ body {
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
